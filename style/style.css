@@ -6,6 +6,7 @@ body {
 .navbar {
   padding-top: 10px;
   padding-bottom: 10px;
+  display: none;
 }
 
 .list-container {
@@ -26,7 +27,7 @@ li {
   height: 74px;
   left: 0;
   top: 0;
-  background-image: url("/img/00.png");
+  background-image: url("../img/00.png");
 }
 
 .top-right-image {
@@ -35,34 +36,57 @@ li {
   height: 14px;
   left: 284px;
   top: 19px;
-  background-image: url("/img/02.png");
+  background-image: url("../img/02.png");
 }
 
 .developer-name {
-  font-size: 60px;
+  font-family: 'Playfair Display', serif;
+  padding-top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  margin-bottom: 0;
+  color: #1a2236;
 }
 
 .developer-story {
-  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
 }
 
 .colab {
-  width: 80%;
-  padding-bottom: 12px;
-  padding-top: 12px;
-  margin-bottom: 25px;
-  font-size: 23px;
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
   background-color: #1a2236;
-  color: #e5e5e5;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .sub-image {
-  background-image: url(/img/01.png);
+  background-image: url("../img/01.png");
   width: 320px;
   height: 160px;
   left: 0;
+}
+
+.sub-container-1 {
+  padding-bottom: 20px;
+  width: 100%;
 }
