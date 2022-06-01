@@ -90,3 +90,119 @@ li {
   padding-bottom: 20px;
   width: 100%;
 }
+
+.portfolio-grid-container {
+  display: grid;
+}
+
+.grid-flex {
+  display: block;
+}
+
+.project-image {
+  background-image: url("../img/03.png");
+  width: 320px;
+  height: 186px;
+  left: 0px;
+  top: 754px;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.item1 { grid-area: project-name; }
+.item2 { grid-area: frameworks-used-1; }
+.item3 { grid-area: frameworks-used-2; }
+.item4 { grid-area: frameworks-used-3; }
+.item5 { grid-area: see-project; }
+
+.project-details {
+  display: grid;
+  grid-template-areas:  'project-name project-name project-name'
+                        'frameworks-used-1 frameworks-used-2 frameworks-used-3'
+                        'see-project see-project see-project';
+  padding-left: 10px;
+  width: 320px;
+  height: 156px;
+  left: 0px;
+  top: 940px;
+  background: #1A2236;
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1px);
+}
+
+.built-with {
+  width: 87px;
+  height: 20px;
+  line-height: 20px;
+  left: 99px;
+  top: 992px;
+  background: #98DEDE;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  color: #1A2236;
+}
+
+.see-project {
+  width: 178px;
+  height: 40px;
+  line-height: 44px;
+  left: 20px;
+  top: 1374px;
+  border: 1px solid #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 15px;
+  display: inline;
+}
+
+.project-name-here {
+  width: 264px;
+  height: 16px;
+  left: 20px;
+  top: 960px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: #FFFFFF;
+}
+
+.project-title {
+  width: 181px;
+  height: 50px;
+  left: 16px;
+  top: 672px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1A2236;
+}
+
+.image-arrow {
+  
+  width: 20.57px;
+  height: 15.35px;
+  line-height: 15.35px;
+  left: 166px;
+  top: 2755.95px;
+  background: #FFFFFF;
+}
+.see-this-project {
+  padding-bottom: 10px;
+  display: inline;
+}
+
+.image-container {
+  display: inline;
+  padding-left: 5px;
+}
