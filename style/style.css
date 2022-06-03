@@ -118,12 +118,19 @@ body {
   grid-template-areas: 'project-name project-name project-name' 'frameworks-used-1 frameworks-used-2 frameworks-used-3' 'see-project see-project see-project';
   padding-left: 10px;
   width: 310px;
-  height: 156px;
+  height: 200px;
   left: 0;
   top: 940px;
   background: #1a2236;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(1px);
+}
+
+.ul-finale {
+  display: flex;
+  width: 320px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .built-with {
@@ -139,6 +146,8 @@ body {
   font-weight: 300;
   font-size: 10.3334px;
   color: #1a2236;
+  list-style: none;
+  margin-right: 10px;
 }
 
 .see-project {
@@ -154,7 +163,8 @@ body {
   font-size: 16px;
   text-align: center;
   color: #fff;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: inline;
 }
 
