@@ -1,7 +1,10 @@
-body {
-  background-color: #e5e5e5;
-  width: 320px;
-}
+@media screen and (max-width: 767px) {
+  body {
+      background-color: #e5e5e5;
+      width: 320px;
+      margin: auto;
+    }
+  }
 
 .navbar {
   padding-top: 10px;
