@@ -307,6 +307,7 @@ body {
   left: 16px;
   top: 3180px;
   background: #febf52;
+  padding-bottom: 5px;
 }
 
 .bottom-left-image {
@@ -342,4 +343,193 @@ body {
 
 .language-list-container {
   padding-left: 25px;
+}
+
+.footer-left-image {
+  width: 111px;
+  height: 74.02px;
+  left: 0;
+  top: 4129px;
+  background-image: url("../img/00.png");
+}
+
+.contact-footer {
+  margin-top: 10px;
+  background: #f9f9fa;
+}
+
+.footer-get-started {
+  width: 249px;
+  height: 50px;
+  left: 16px;
+  top: 4235px;
+  margin-left: 18px;
+}
+
+.footer-get-started-text {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin-left: 18px;
+}
+
+.actual-text {
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 4405px;
+  margin-left: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.form-insert {
+  box-sizing: border-box;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4460px;
+  background: #fff;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  box-sizing: border-box;
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  top: 4520px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  margin-left: 18px;
+  margin-right: 14px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7d7c84;
+}
+
+.get-my-resume {
+  width: 320px;
+  height: 150px;
+  left: 0;
+  top: 4760px;
+  background: #1a2236;
+}
+
+.text-image {
+  width: 264px;
+  height: 24px;
+  left: 16px;
+  display: flex;
+}
+
+.get-my-resume-text {
+  width: 127px;
+  height: 24px;
+  left: 16px;
+  top: 4792px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+  margin-left: 16px;
+}
+
+.the-icons {
+  width: 24px;
+  height: 24px;
+  right: 16px;
+  top: 4846px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.form-insert-1 {
+  box-sizing: border-box;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4400px;
+  background: #fff;
+  border: 1px solid #dfdfe0;
+  border-radius: 4px;
+  margin-left: 18px;
+  margin-right: 14px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+.form-insert-2 {
+  box-sizing: border-box;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4460px;
+  background: #fff;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  margin-left: 18px;
+  margin-right: 14px;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+.colab-2 {
+  width: 288px;
+  height: 50px;
+  left: 16px;
+  top: 390px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #1a2236;
+  margin-left: 18px;
+  margin-right: 14px;
+  margin-bottom: 10px;
+}
+
+.icons-row {
+  display: flex;
+  margin-top: 50px;
+}
+
+.get-my-resume-img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.colab-2:hover {
+  color: #1a2236;
+  background-color: #fff;
+  border: #1a2236 solid 1px;
 }
