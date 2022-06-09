@@ -4,13 +4,24 @@
       width: 320px;
       margin: auto;
     }
-  }
 
-.navbar {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  display: none;
-}
+    .developer-name {
+      font-family: 'Playfair Display', serif;
+      padding-top: 50px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 100%;
+      margin-bottom: 0;
+      color: #1a2236;
+    }
+
+    .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: none;
+    }
+  }
 
 .top-left-image {
   position: absolute;
@@ -30,16 +41,7 @@
   background-image: url("../img/02.png");
 }
 
-.developer-name {
-  font-family: 'Playfair Display', serif;
-  padding-top: 50px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 100%;
-  margin-bottom: 0;
-  color: #1a2236;
-}
+
 
 .developer-story {
   font-family: 'Poppins', sans-serif;
