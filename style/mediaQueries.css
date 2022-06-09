@@ -115,8 +115,17 @@
     left: 0;
   }
 
+  .sub-image-2 {
+    background-image: url("../img/22.png");
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 323px;
+    top: 1187px;
+  }
+
   .home-container {
-    height: 877px;
+    height: 1077px;
   }
 
   .dotted-button-image {
@@ -126,5 +135,314 @@
     height: 175px;
     left: 563px;
     top: 802px;
+  }
+
+  .project-title {
+    width: 398px;
+    height: 110px;
+    left: 145px;
+    top: 1585px;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #1a2236;
+    transform: rotate(-90deg);
+  }
+
+  .grid-flex {
+    display: block;
+    position: absolute;
+    width: 960px;
+    height: 558px;
+    left: 480px;
+    top: 1187px;
+    background-image: url("../img/03.png");
+    background-size: cover;
+  }
+
+  .project-image {
+    width: 320px;
+    height: 186px;
+    left: 0;
+    top: 754px;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+    display: none;
+  }
+
+  .item1 { grid-area: project-name; }
+  .item2 { grid-area: frameworks-used-1; }
+  .item3 { grid-area: frameworks-used-2; }
+  .item4 { grid-area: frameworks-used-3; }
+  .item5 { grid-area: see-project; }
+
+  .project-details {
+    display: grid;
+    grid-template-areas: 'project-name project-name project-name' 'frameworks-used-1 frameworks-used-2 frameworks-used-3' 'see-project see-project see-project';
+    position: absolute;
+    width: 960px;
+    height: 353px;
+    left: 0;
+    top: 210px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .project-name-here {
+    width: 726px;
+    height: 48px;
+    left: 540px;
+    top: 1452px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+    color: #fff;
+    margin-left: 60px;
+  }
+
+  .ul-finale {
+    display: flex;
+    width: 632px;
+    padding-left: 0;
+    margin-left: 60px;
+  }
+
+  .built-with {
+    width: 169px;
+    height: 40px;
+    left: 901px;
+    top: 1546px;
+    line-height: 40px;
+    background: #98dede;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #1a2236;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .see-project {
+    width: 212px;
+    height: 51px;
+    line-height: 44px;
+    left: 20px;
+    top: 1374px;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #1a2236;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+    margin-left: 60px;
+  }
+
+  .image-container {
+    display: inline;
+    padding-left: 0;
+  }
+
+  .image-arrow {
+    position: absolute;
+    width: 20.57px;
+    height: 15.35px;
+    left: 714px;
+    top: 1651.95px;
+  }
+
+  .grid-flex-2 {
+    height: 465px;
+  }
+
+  .only-for-desktop {
+    position: absolute;
+    width: 465px;
+    height: 218px;
+    left: 975px;
+    top: 1797px;
+  }
+
+  .project-image-2 {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 0;
+    top: 220px;
+  }
+
+  .project-details-2 {
+    width: 465px;
+    height: 188px;
+    left: 975px;
+    top: 1797px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .project-name-here-2 {
+    width: 411px;
+    height: 32px;
+    left: 1005px;
+    top: 1827px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80%;
+    color: #fff;
+    margin-left: 60px;
+  }
+
+  .ul-finale-2 {
+    display: flex;
+    width: 456px;
+    padding-left: 0;
+    margin-left: 60px;
+    margin-top: 0;
+  }
+
+  .built-with-2 {
+    width: 129px;
+    height: 40px;
+    left: 901px;
+    top: 1546px;
+    line-height: 40px;
+    background: #98dede;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #1a2236;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .built-with-3 {
+    width: 94px;
+    height: 40px;
+    left: 901px;
+    top: 1546px;
+    line-height: 40px;
+    background: #98dede;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #1a2236;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .built-with-4 {
+    width: 57px;
+    height: 40px;
+    left: 901px;
+    top: 1546px;
+    line-height: 40px;
+    background: #98dede;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #1a2236;
+    list-style: none;
+    margin-right: 10px;
+  }
+
+  .absolute-images-1 {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 0;
+    top: 1825px;
+  }
+
+  .absolute-images-2 {
+    position: absolute;
+    width: 800px;
+    height: 465px;
+    left: 0;
+    top: 2095px;
+  }
+
+  .absolute-images-3 {
+    position: absolute;
+    width: 465px;
+    height: 270px;
+    left: 799px;
+    top: 2560px;
+  }
+
+  .about-me-section {
+    position: absolute;
+    width: 1120px;
+    height: 586px;
+    left: 160px;
+    top: 3046px;
+  }
+
+  .languages-proficiency-1 {
+    display: none;
+    position: absolute;
+    width: 289px;
+    height: 289px;
+    left: 160px;
+    top: 3046px;
+    background: #1c528a;
+  }
+
+  .languages-proficiency {
+    position: absolute;
+    width: 289px;
+    height: 305px;
+    left: 0;
+    top: 0;
+    background: #1c528a;
+  }
+
+  .about-text {
+    position: absolute;
+    width: 295px;
+    height: 110px;
+    left: 834px;
+    top: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    color: #1a2236;
+    margin-top: 0;
+  }
+
+  .languages-proficiency-2 {
+    position: absolute;
+    width: 289px;
+    height: 305px;
+    left: 290px;
+    top: 0;
+    background: #e2505c;
+  }
+
+  .languages-proficiency-3 {
+    position: absolute;
+    width: 289px;
+    height: 289px;
+    left: 0;
+    top: 306px;
+    background: #febf52;
+    padding-bottom: 5px;
   }
 }
