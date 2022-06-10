@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/mediaQueries.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +18,23 @@
     <!--- Navigation Header section -->
     <header class="header-container">
         <nav class="navbar">
-            <a href="#">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">JavaScript</a>
-            <a href="#">Python</a>
+            <ul class="navbar-list">
+                <li class="navbar-list-item">HTML</li>
+                <li class="navbar-list-item">CSS</li>
+                <li class="navbar-list-item">Javascript</li>
+                <li class="navbar-list-item">About</li>
+            </ul>
           </nav>
     </header>
     <!--- Top left/right image section -->
-    <section class="image-section">
-        <div class="top-left-image"></div>
-        <nav class="top-right-image"></nav>
-    </section>
+    <div class="top-left-image"></div>
+    <div class="top-right-image"></div>
     <!--- Homepage section -->
     <section>
         <div class="home-container">
             <div class="sub-container-1">
                 <h1 class="developer-name">
-                    Tinaye Tsinakwadi
+                    Tinaye <br> Tsinakwadi
                 </h1>
                 <p class="developer-story">
                     Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
@@ -43,7 +44,7 @@
                     Start collaboration
                 </button>
             </div>
-            <div class="sub-container-2"></div>
+            <div class="dotted-button-image"></div>
         </div>
     </section>
     <!--- Box Image section -->
@@ -54,16 +55,49 @@
     <h1 class="project-title">
         Projects
     </h1>
+    <div class="sub-image-2"></div>
+    <img src="img/11.png" width="465" height="270" class="absolute-images-1" alt="">
+    <img src="img/08.png" width="800" height="465" class="absolute-images-2" alt="">
+    <img src="img/07.png" width="465" height="270" class="absolute-images-3" alt="">
+    <section class="only-for-desktop">
+        <div class="grid-box grid-flex-2">
+            <div class="project-image-2">
+                <img src="img/09.png" class="image-desktop" width="465">
+            </div>
+            <div class="project-shaper">
+                <div class="project-details-2">
+                    <h1 class="item1 project-name-here-2">
+                        Project name goes...
+                    </h1>
+                    <ul class="ul-finale-2">
+                    <li class="item2 built-with-2">HTML/CSS</li>
+                    <li class="item3 built-with-3">Ruby on Rails</li>
+                    <li class="item4 built-with-4">+1</li>
+                    </ul>
+                    <div class="item5 see-project">
+                        <p class="see-this-project">See this project</p>
+                        <div class="image-container">
+                            <img src="img/04.png" alt="" class="image arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/27.png" class="only-desk-img-1">
+        <img src="img/29.png" class="only-desk-img-2">
+        <img src="img/28.png" class="only-desk-img-3">
+        <img src="img/30.png" class="only-desk-img-4">
+    </section>
     <section class="portfolio-grid-container">
         <div class="grid-box grid-flex">
             <div class="project-image">
-                <img src="img/07.png" alt="">
+                <img src="img/07.png" class="image-desktop">
             </div>
             <div class="project-shaper">
                 <div class="project-details">
-                    <h1 class="item1 project-name-here">
+                    <h2 class="item1 project-name-here">
                         Project name goes here
-                    </h1>
+                    </h2>
                     <ul class="ul-finale">
                     <li class="item2 built-with">HTML/CSS</li>
                     <li class="item3 built-with">Ruby on Rails</li>
@@ -219,6 +253,8 @@
                 <img src="img/05.png" alt="">
             </div>
         </div>
+        <img src="img/24.png" alt="" class="blue-box">
+        <img src="img/22.png" alt="" class="dotted-box-about">
         <div class="languages-proficiency">
             <h1 class="languages-title">
                 Languages
@@ -236,9 +272,9 @@
             </div>
         </div>
         <div class="languages-proficiency-2">
-            <h1 class="languages-title">
+            <h2 class="languages-title">
                 Frameworks
-            </h1>
+            </h2>
             <div class="language-list-container">
                 <ul class="language-list">
                     <li>Bootstrap</li>
@@ -272,6 +308,7 @@
     </section>
     <!--- Conact From Footer -->
     <footer class="contact-footer">
+        <img src="img/25.png" alt="" class="bottom-right-finale">
         <div class="footer-left-image"></div>
             <h1 class="footer-get-started-text">
                 Get Started
@@ -284,7 +321,7 @@
         <form action="https://formspree.io/f/mvolykaj" method="post">
             <input type="text" name="username" placeholder="Your name" class="form-insert-1" required>
             <input type="email" name="email" placeholder="Your email" class="form-insert-2" maxlength="30" required>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message here" class="form-textarea" maxlength="500" required></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Enter your message here" class="form-textarea" maxlength="500" required></textarea>
             <button class="colab-2" type="submit">
                 Start collaboration
             </button>  
@@ -295,27 +332,27 @@
                     Get my Resume
                 </p>
                 <div class="get-my-resume-img">
-                    <img src="img/14.png" alt="" srcset="" >
+                    <img src="img/14.png" alt=""  >
                 </div>
             </div>
             <div class="icons-row">
                 <div class="the-icons">
-                    <img src="img/15.png" alt="" srcset="">
+                    <img src="img/15.png" alt="" >
                 </div>
                 <div class="the-icons">
-                    <img src="img/16.png" alt="" srcset="">
+                    <img src="img/16.png" alt="" >
                 </div>
                 <div class="the-icons">
-                    <img src="img/17.png" alt="" srcset="">
+                    <img src="img/17.png" alt="" >
                 </div>
                 <div class="the-icons">
-                    <img src="img/18.png" alt="" srcset="">
+                    <img src="img/18.png" alt="" >
                 </div>
                 <div class="the-icons">
-                    <img src="img/19.png" alt="" srcset="">
+                    <img src="img/19.png" alt="" >
                 </div>
                 <div class="the-icons">
-                    <img src="img/20.png" alt="" srcset="">
+                    <img src="img/20.png" alt="" >
                 </div>
             </div>
         </div>
