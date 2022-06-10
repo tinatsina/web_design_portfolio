@@ -65,12 +65,17 @@ body {
   text-align: center;
   color: #fff;
   background-color: #1a2236;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
 }
 
 .colab:hover {
   color: #1a2236;
-  background-color: #fff;
-  border: #1a2236 solid 1px;
+  background-color: rgba(152, 222, 222, 1);
+  border: #e45865 solid 1px;
+  transform: scale(1.05);
+  transition-duration: 1s;
+  transition-delay: 0.2s;
 }
 
 .colab:checked {
@@ -532,4 +537,17 @@ body {
   color: #1a2236;
   background-color: #fff;
   border: #1a2236 solid 1px;
+}
+
+.project-image:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+  transition-delay: 0.2s;
+}
+
+.see-project:hover {
+  border-radius: 2px;
+  background-color: rgba(152, 222, 222, 1);
+  color: #1a2236f2;
+  transform: scale(1.02);
 }
