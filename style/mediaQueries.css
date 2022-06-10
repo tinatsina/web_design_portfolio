@@ -660,4 +660,28 @@
     margin-left: 30px;
     margin-right: 30px;
   }
+
+  .only-desk-img-1 {
+    position: absolute;
+    width: 511px;
+    height: 350px;
+    left: -510px;
+    top: -47px;
+  }
+
+  .only-desk-img-3 {
+    position: absolute;
+    width: 639.75px;
+    height: 275.42px;
+    left: -175px;
+    top: 490px;
+  }
+
+  .only-desk-img-4 {
+    position: absolute;
+    width: 211.7px;
+    height: 124.04px;
+    left: -975px;
+    top: 760px;
+  }
 }
