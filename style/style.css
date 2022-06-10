@@ -74,10 +74,14 @@ body {
   background-color: rgba(152, 222, 222, 1);
   border: #e45865 solid 1px;
   transform: scale(1.05);
+  transition-duration: 1s;
+  transition-delay: 0.2s;
 }
 
 .project-image:hover {
   transform: scale(1.1);
+  transition-duration: 1s;
+  transition-delay: 0.2s;
 }
 
 .see-project:hover {
